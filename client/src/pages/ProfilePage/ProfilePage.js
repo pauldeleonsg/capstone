@@ -51,7 +51,6 @@ class ProfilePage extends Component {
     if (isAuthenticating) return null;
 
     return (
-      <>
       <section className="profile-page">
         <h1>Profile Page</h1>
         {/* If user is logged in, render their profile information */}
@@ -79,7 +78,6 @@ class ProfilePage extends Component {
           </>
         )}
       </section>
-      </>
     );
   }
 

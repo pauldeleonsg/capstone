@@ -6,7 +6,8 @@
   "scripts": {
     "migrate": "knex migrate:latest",
     "dev": "nodemon index",
-    "start": "node index"
+    "start": "node index",
+    "seed": "knex seed:run"
   },
   "keywords": [],
   "author": "",
