@@ -16,6 +16,7 @@ const Header = () => {
           >
             Home
           </NavLink>
+
           <NavLink
             className="header__nav-link"
             activeClassName="header__nav-link--active"
@@ -24,6 +25,7 @@ const Header = () => {
           >
             Profile
           </NavLink>
+
           <NavLink
             className="header__nav-link"
             activeClassName="header__nav-link--active"
@@ -37,5 +39,6 @@ const Header = () => {
     </section>
   );
 };
+
 
 export default Header;
