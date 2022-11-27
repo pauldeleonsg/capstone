@@ -17,13 +17,11 @@ const GitHubStrategy = require('passport-github2').Strategy;
 const knex = require('knex')(require('./knexfile.js').development);
 
 
-////
 
-
-
+//MIDDLEWARE
 // Create Express app and also allow for app PORT to be optionally specified by an environment variable
 const app = express();
-const PORT = process.env.PORT || 1111;
+const PORT = process.env.PORT || 5050;
 
 // Require .env files for environment variables (keys and secrets)
 require('dotenv').config();
@@ -53,12 +51,7 @@ app.use(
 
 
 
-////
-
-
-
-// =========== Passport Config ============
-
+//PASSPORT
 // Initialize Passport middleware
 app.use(passport.initialize());
 
@@ -145,17 +138,9 @@ passport.deserializeUser((userId, done) => {
     });
 });
 
-// Additional information on serializeUser and deserializeUser:
-// https://stackoverflow.com/questions/27637609/understanding-passport-serialize-deserialize
-
-// =========================================
 
 
-
-////
-
-
-
+//ROUTES
 const authRoutes = require('./routes/auth');
 
 app.use('/auth', authRoutes);
