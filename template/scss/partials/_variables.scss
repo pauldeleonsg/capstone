@@ -1,0 +1,30 @@
+// _variables.scss
+
+@use "sass:map";
+
+
+//Colors
+$hellocolors : (
+  "hellopri01" : #1d7100,        //hello primary1 botanical
+  "hellopri02" : #181818,        //hello primary2 nero
+  "hellopri03" : #ffffff,        //hello primary3 white
+  "hellosec01" : #114200,        //hello secondary1 myrtle
+  "hellosec02" : #000000,        //hello secondary2 black
+  "hellosec03" : #e4e4e4,        //hello secondary3 whisper
+);
+
+
+//font colors
+$fontcolor01 :  map.get($hellocolors, "hellopri02");
+
+
+//background colors
+$bgcolor01 : map.get($hellocolors, "hellosec03");
+$bgcolor02 : map.get($hellocolors, "hellopri03");
+
+
+//breakpoints
+$desktop-maxpoint: 1600px;      //max desktop
+$desktop-breakpoint: 1024px;
+$tablet-breakpoint: 768px;
+$mobile-breakpoint: 767px;      //max
