@@ -6,21 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hello!game</title>
 
-    <link rel="stylesheet" href="./scss/global.css">
+    <link rel="stylesheet" href="./App.css">
 </head>
 <body>
 
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ex id lectus sagittis sagittis. In urna nulla, tempus in enim consectetur, aliquam malesuada sapien. Nulla euismod suscipit massa vel tristique. Donec sit amet rutrum quam. Phasellus in ultricies lectus. Vivamus rhoncus, diam ultrices molestie pellentesque, purus nisl mattis nulla, ut elementum nisi metus ultricies ipsum. Nulla scelerisque laoreet erat, non efficitur dolor commodo accumsan. Nunc eu velit eget neque pretium lacinia. Nunc mattis enim quis turpis efficitur malesuada. Aenean dignissim bibendum enim, in congue turpis tempus vel. Integer magna neque, tincidunt nec tortor ut, accumsan elementum velit.</p>
+    <div class="body-card">
+        
+        <!-- HEADER -->
+        <header class="header-card">
 
-        <p>Mauris lobortis erat vitae leo mattis, sit amet malesuada mi pharetra. Etiam a leo in tellus congue faucibus. Donec lacinia nibh quis velit ultrices dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis gravida dapibus purus, sit amet venenatis leo elementum sit amet. Suspendisse metus velit, rutrum eu ultricies at, ultrices vehicula nibh. Vestibulum ac ligula in erat feugiat porta id et nisl. Integer pharetra orci metus, sed finibus nisl tincidunt a.</p>
+            <div class="header-card__aside">
+                <!-- LOGO -->
+                <div class="header-card__image">
+                    <a href="./index.html">
+                        <img class="logo" alt="hello!game" src="./assets/images/pic-logo-hellogame-180x45.png">
+                    </a>
+                </div>
+            </div>
 
-        <p>Quisque cursus diam arcu. Mauris vel porta mauris, ut imperdiet risus. Cras quis nisi dolor. Cras vitae erat urna. Etiam eu sem sodales, iaculis justo ut, dignissim mauris. Integer sed leo facilisis, egestas ligula quis, cursus enim. Sed ac porta magna. Sed vehicula nisl lacus, vel dictum nisl tempor sed. Nam lacinia velit faucibus mi lacinia vestibulum. Donec id orci nec ex viverra viverra non in dolor. Pellentesque gravida urna quis semper malesuada. Fusce sit amet consectetur nibh.</p>
+            <div class="header-card__aside">
+                <!-- MENU -->
+                <div class="header-card__placeholder header-card__search">
+                    <input type="text" class="inpSearch" placeholder="Search" id="txtsearch" >
+                </div>
 
-        <p>Integer ut justo id tortor venenatis tincidunt. Nulla turpis massa, dapibus at odio quis, eleifend vulputate dui. Ut in felis id dolor laoreet iaculis quis vel ligula. In sit amet nisl placerat, sagittis justo a, pretium mauris. Vestibulum eleifend consectetur urna non commodo. Morbi et volutpat lorem. Nullam felis mi, vestibulum non fringilla vitae, vestibulum et erat. Aenean bibendum mollis ipsum, sed porta est consectetur sit amet. Phasellus mattis viverra erat a aliquet. Nam in dui vitae felis venenatis porta vitae in augue. Morbi dolor quam, viverra ac elit porta, gravida rutrum odio. Proin consectetur velit sed hendrerit maximus. Quisque quis ex in orci efficitur dignissim et mattis lacus. Nulla nisi neque, imperdiet in diam id, porttitor venenatis quam.</p>
 
-        <p>Praesent rhoncus varius orci, et vehicula erat pretium vel. Sed efficitur interdum metus, id fermentum orci tempor vitae. Integer hendrerit felis vel nisl mollis, et eleifend metus dictum. Aliquam sit amet gravida arcu. Praesent quam quam, luctus pulvinar sapien at, vestibulum vestibulum nibh. Quisque in est nec risus dapibus gravida. Sed sollicitudin tellus nunc, ultrices interdum nunc efficitur blandit. Donec sit amet molestie ante.</p>
+                <!-- UPLOAD -->
+                <div class="header-card__placeholder header-card__upload">
+                    <button class="btnUpload">Upload</button>
+                </div>
+
+
+                <!-- USER -->
+                <div class="header-card__placeholder header-card__image">
+                    <a href="./index.html"><img class="avatar" src="./assets/images/pic-avatar-profile.png" alt="This is you"></a>
+                </div>
+            </div>
+            
+        </header>
+        <!-- HEADER END -->
+
+
     </div>
+    
 
     
 </body>

@@ -16,11 +16,18 @@ $hellocolors : (
 
 //font colors
 $fontcolor01 :  map.get($hellocolors, "hellopri02");
+$fontcolor02 :  map.get($hellocolors, "hellopri03");
 
 
 //background colors
-$bgcolor01 : map.get($hellocolors, "hellosec03");
-$bgcolor02 : map.get($hellocolors, "hellopri03");
+$bgcolor01 : map.get($hellocolors, "hellopri03");
+$bgcolor02 : map.get($hellocolors, "hellosec03");
+$bgcolor03 : map.get($hellocolors, "hellopri01");
+$bgcolor04 : map.get($hellocolors, "hellosec01");
+
+
+//border colors
+$bordercolor01 : map.get($hellocolors, "hellosec03");
 
 
 //breakpoints
