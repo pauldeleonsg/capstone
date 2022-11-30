@@ -3,6 +3,7 @@
 @use './scss/partials/variables' as *;
 @use './scss/partials/fonts' as *;
 @use './scss/partials/header' as *;
+@use './scss/partials/hero' as *;
 
 
 * {
@@ -74,4 +75,11 @@ img.avatar {
     height: 40px;
     border-radius: 50%;
     background-color: $bgcolor02;
+}
+
+
+//label
+.mainlogo {
+    font-family: "ErasBoldITC";
+    font-size: 36px;
 }
