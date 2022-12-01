@@ -1,28 +1,32 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-
-import Header from './components/Header/Header';
-import HomePage from './pages/HomePage/HomePage';
-import ProfilePage from './pages/ProfilePage/ProfilePage';
-import PostsPage from './pages/PostsPage/PostsPage';
-import AuthFailPage from './pages/AuthFailPage/AuthFailPage';
+import { Link, NavLink } from 'react-router-dom';
 
 import './App.scss';
 
+import Header from './components/Header/Header';
+import Content from './components/Content/Content';
+import Footer from './components/Footer/Footer';
 
-function App() {
-  return (
-    <div className="app">
-      <BrowserRouter>
-        <Header/>
-        <Switch>
-          <Route path="/" exact component={HomePage}/>
-          <Route path="/profile" component={ProfilePage}/>
-          <Route path="/posts" component={PostsPage}/>
-          <Route path="/auth-fail" component={AuthFailPage}/>
-        </Switch>
-      </BrowserRouter>
-    </div>
-  );
+
+const App = () => {
+    return(
+        <>
+        <div className='body-card'>
+            
+            <Header />
+
+            <div className="buffer" />
+
+            <Content />
+
+            <div className="buffer" />
+
+            <Footer />
+
+        </div>
+
+        </>
+    )
 }
+
 
 export default App;
