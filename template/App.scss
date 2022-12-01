@@ -4,6 +4,7 @@
 @use './scss/partials/fonts' as *;
 @use './scss/partials/header' as *;
 @use './scss/partials/hero' as *;
+@use './scss/partials/footer' as *;
 
 
 * {
@@ -17,13 +18,14 @@ body {
     font-size: 14px;
     color: $fontcolor01;
     
-    background-color: $bgcolor01;
+    background-color: $bgcolor02;
 }
 
 
 .body-card {
     width: 100%;
     margin: 0;
+    background-color: $bgcolor01;
 }
 
 
@@ -82,4 +84,9 @@ img.avatar {
 .mainlogo {
     font-family: "ErasBoldITC";
     font-size: 36px;
+}
+
+//etc
+.buffer {
+    height: 80px;
 }

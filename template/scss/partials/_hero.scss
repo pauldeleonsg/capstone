@@ -1,9 +1,14 @@
 // _hero.scss //
 
+@use './variables' as *;
+
+
 .hero {
     width: 100%;
+    height: 300px;
     display: flex;
     padding: 10px 64px 0 64px;
+    margin-bottom: 12px;
 
     &__box {
         flex: 1;
@@ -30,6 +35,7 @@
         text-align: center;
         height: 20%;
         line-height: 2.6;
+        background-color: $bgcolor02;
     }
       
     &__box:hover { flex: 1 1 50%; }
