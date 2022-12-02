@@ -1,10 +1,13 @@
-import { Link, NavLink } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import './App.scss';
 
+//components
 import Header from './components/Header/Header';
-import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
+
+//pages
+import HomePage from './pages/HomePage/HomePage';
 
 
 const App = () => {
@@ -16,7 +19,15 @@ const App = () => {
 
             <div className="buffer" />
 
-            <Content />
+
+            <div className='content'>
+                <BrowserRouter>
+                    <Switch>
+                        <Route path="/" exact component={HomePage}/>
+                    </Switch>
+                </BrowserRouter>
+            </div>
+            
 
             <div className="buffer" />
 

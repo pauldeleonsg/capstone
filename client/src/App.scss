@@ -26,6 +26,17 @@ body {
 }
 
 
+.content {
+  width: 100%;
+  margin: 0;
+
+  display: flex;
+  padding: 10px 64px 0 64px;
+  margin-bottom: 12px;
+
+}
+
+
 //forms
 input[type=text] {
   font-size: 14px;
