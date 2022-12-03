@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 
 //pages
 import HomePage from './pages/HomePage/HomePage';
+import Courses from './pages/Courses/Courses';
 
 
 const App = () => {
@@ -20,13 +21,13 @@ const App = () => {
             <div className="buffer" />
 
 
-            <div className='content'>
-                <BrowserRouter>
-                    <Switch>
-                        <Route path="/" exact component={HomePage}/>
-                    </Switch>
-                </BrowserRouter>
-            </div>
+            <BrowserRouter>
+                <Switch>
+                    <Route path="/" exact component={HomePage}/>
+
+                    <Route path="/courses" component={Courses}/>
+                </Switch>
+            </BrowserRouter>
             
 
             <div className="buffer" />

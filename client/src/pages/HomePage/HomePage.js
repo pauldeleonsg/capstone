@@ -2,13 +2,17 @@
 
 import './HomePage.scss';
 
+const pageClick = (myLink) => () => {
+    window.location.href=myLink;
+}
+
 
 const HomePage = () => {
 
     return(
         <>
         <div className='homepage'>
-            <div className='homepage__hero'>
+            <div className='homepage__hero' onClick={pageClick('/courses')}>
                 <div className="homepage__text">
                     <label className='title'>Play and Learn</label>
                     <p><b>Welcome to hello!game</b></p>

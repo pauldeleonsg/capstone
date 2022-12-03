@@ -5,6 +5,9 @@
 
 .homepage {
     width: 100%;
+    margin: 0;
+    padding: 10px 64px 0 64px;
+    margin-bottom: 12px;
 
     &__hero {
         background-image: url('../../Assets/Images/pic-homepage-hero2.png');
