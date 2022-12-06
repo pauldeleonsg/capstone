@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { Redirect } from 'react-router-dom'; 
-import ReactDOM from "react-dom";
-//import { useNavigate } from "react-router-dom";
+import { Redirect } from 'react-router-dom';
 
-import { MainContext } from '../../Context/Context';
+//import { MainContext } from '../../Context/Context';
 
 
 const LoginPage = () => {
