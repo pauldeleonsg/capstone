@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 //pages
 import HomePage from './pages/HomePage/HomePage';
 import Courses from './pages/Courses/Courses';
+import Classes from './pages/Classes/Classes';
 
 
 const App = () => {
@@ -26,6 +27,8 @@ const App = () => {
                     <Route path="/" exact component={HomePage}/>
 
                     <Route path="/courses" component={Courses}/>
+
+                    <Route path="/classes" component={Classes}/>
                 </Switch>
             </BrowserRouter>
             

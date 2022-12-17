@@ -1,0 +1,27 @@
+// Classes.scss //
+
+@use '../../Styles/Partials/Variable' as *;
+
+
+.classes {
+    margin: auto;
+    padding: 20px 100px;
+
+    &__header {
+        margin: 0;
+        width: 100%;
+    }
+
+    &__crumbs {
+        margin: 0;
+        width: 100%;
+        font-size: 12px;
+        padding: 8px;
+        background-color: $bgcolor02;
+        border-radius: 8px;
+    }
+
+    &__item {
+        margin: 0;
+    }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "course_id": "22120101",
+        "course_title": "Javascript Course",
+        "course_description": "Nulla pharetra urna orci, ac scelerisque tellus ornare et. Donec ut orci eu leo rhoncus sodales in ac sem. Aliquam erat volutpat. Mauris vestibulum, massa non sollicitudin efficitur, massa arcu lacinia dolor, vitae finibus ipsum dolor non nunc. Suspendisse sollicitudin tincidunt ipsum, vitae congue turpis accumsan ac. Sed nec convallis ligula, id auctor dui. Pellentesque mollis rutrum metus, tempor efficitur lacus convallis non.",
+        "course_cover": "Assets/Images/pic-hero-99-temp.png",
+        "course_startdate": "12/10/2022",
+        "course_enddate": "12/09/2023",
+        "course_createdate": "12/01/2022"
+    },
+    {
+        "course_id": "22120102",
+        "course_title": "React Js Course",
+        "course_description": "Sed bibendum pretium arcu, ut euismod nunc. Praesent vestibulum sem at maximus consequat. Integer suscipit, purus iaculis tempus dapibus, nibh velit viverra quam, ac rutrum libero diam faucibus nulla. Sed varius purus a sem sodales scelerisque. Mauris ut enim vitae risus dignissim auctor eu vel arcu. Proin tincidunt porttitor ipsum, nec dictum est consectetur in. Fusce condimentum, nibh vel sodales consectetur, diam mauris vestibulum nisl, ut ullamcorper ante enim in lacus. Sed sodales mi vel quam sodales porta. Cras at dictum arcu, nec tempus nisl. Praesent gravida neque quis orci fermentum fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+        "course_cover": "Assets/Images/pic-hero-99-temp.png",
+        "course_startdate": "12/10/2022",
+        "course_enddate": "12/09/2023",
+        "course_createdate": "12/01/2022"
+    }
+]

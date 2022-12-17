@@ -1,15 +1,25 @@
 // Courses.js //
+//import jsonCourses from '../../Data/courses.json';
+
 
 import './Courses.scss';
 
+
+const pageClick = (myLink) => () => {
+    window.location.href=myLink;
+}
+
+
 const Courses = () => {
 
+    
     return (
         <>
         <div className='courses'>
             
             <div class="courses__box">
-                <img src={require('../../Assets/Images/pic-hero-01-javascript.png')} alt='Javascript' />
+                <img src={require('../../Assets/Images/pic-hero-01-javascript.png')} alt='Javascript'
+                onClick={pageClick('/classes?id=22120101')} />
                 <span>Javascript</span>
             </div>
 
